@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Forget Password navigating to request password page]]>
+    </line>
+    <line>
+      <![CDATA[Login Button Warning message for not entering Username and Password]]>
+    </line>
+  </reporter-output>
+  <suite name="OrangeHRM suite" duration-ms="11815" started-at="2019-11-07T11:42:29Z" finished-at="2019-11-07T11:42:40Z">
+    <groups>
+    </groups>
+    <test name="OrangeHRM-Sanity Execution test" duration-ms="11815" started-at="2019-11-07T11:42:29Z" finished-at="2019-11-07T11:42:40Z">
+      <class name="usermodule.LoginTest">
+        <test-method status="PASS" signature="ValidateForgetPassword()[pri:0, instance:usermodule.LoginTest@1caeb3e]" name="ValidateForgetPassword" duration-ms="6905" started-at="2019-11-07T17:12:29Z" finished-at="2019-11-07T17:12:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Forget Password navigating to request password page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateForgetPassword -->
+        <test-method status="PASS" signature="ValidateLoginWithoutCredentials()[pri:0, instance:usermodule.LoginTest@1caeb3e]" name="ValidateLoginWithoutCredentials" duration-ms="4859" started-at="2019-11-07T17:12:36Z" finished-at="2019-11-07T17:12:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Button Warning message for not entering Username and Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateLoginWithoutCredentials -->
+      </class> <!-- usermodule.LoginTest -->
+    </test> <!-- OrangeHRM-Sanity Execution test -->
+  </suite> <!-- OrangeHRM suite -->
+</testng-results>
