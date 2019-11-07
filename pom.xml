@@ -21,7 +21,7 @@
 				<version>2.20</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/testSuite/LinkedinTestSuite.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/testSuite/LinkedinTestSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
